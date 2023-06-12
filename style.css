@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FFF6D9;
+	font-family: 'Inter', sans-serif;
+}
+
+.header li {
+	display: inline-flex;
+	list-style: none;
+	flex-flow: row;
+}
+
+.icons img {
+	padding: 0px 7px;
+	padding-top: 40px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-left: 37px;
+	padding-right: 7px;
+	padding-top: 30px;
+}
+
+.menu a:hover {
+	color: #FF8F00;
+}
+
+.logo {
+	padding-top: 15px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0 30px;
+	width: 100%;
+    height: 115px;
+    background-color: #3E2F1D;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif, bold;
+	text-align: center;
+	color: #3E2F1D;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: 'Ubuntu', sans-serif, bold;
+	text-align: center;
+	color: #3E2F1D;
+	padding-top: 36px;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif, bold;
+	text-justify: left;
+	color: #3E2F1D;
+	padding-bottom: 10px;
+}
+
+p1 {
+	font-size: 18px;
+	color: #3E2F1D;
+	margin-bottom: 60px;
+}
+
+p2 {
+	font-size: 14px;
+	color: #373F3F;
+}
+
+#about {
+	background-color: #FFE0B2;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 60px;
+}
+
+#flipflop {
+	padding: 0 95px;
+	padding-bottom: 70px;
+}
+
+.box1 {
+	float: left;
+	width: 50%;
+	padding-right: 50px;
+}
+
+.ff {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.but1 {
+	margin: 30px 30%;
+}
+
+.catg {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	padding: 0px 30px 30px 30px;
+}
+
+#categories {
+	padding: 0px 60px;
+	color: #3E2F1D;
+}
+
+a2 {
+	font-size: 18px;
+}
+
+#best {
+	background-color: #FFE0B2;
+	padding-bottom: 60px;
+	color: #3E2F1D;
+}
+
+.bests {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	padding: 0px 30px 30px 30px;
+}
+
+button {
+	background-color: #FF8F00;
+	border: none;
+  	color: white;
+  	padding: 15px 32px;
+	text-align: center;
+ 	text-decoration: none;
+  	font-size: 14px;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: #FF8F00;
+}
+
+.tatesc {
+	width: 390px;
+	color: #373F3F;
+}
+
+.merch {
+	width: 390px;
+	color: #373F3F;
+}
+
+.col {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.but2 {
+	margin: 30px 30%;
+}
+
+#tnm {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.grt {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	padding: 0px 30px 30px 30px;
+}
+
+#gua {
+	background-color: #FFE0B2;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+a3 {
+	color: #373F3F;
+}
+a4 {
+	font-size: 14px;
+	color: #3E2F1D;
+}
+
+.gr {
+	width: 25%;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: left;
+}
+
+h4{
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif, bold;
+	color: #FFFFFF;
+}
+
+li {
+	list-style: none;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+#footer {
+	background-color: #3E2F1D;
+	padding: 25px;
+}
+
+.foot img {
+	padding: 10px;
+}
+
+.foot a {
+	color: #FFFFFF;
+}
+
+.foot a:hover {
+	color: #FF8F00;
+}
+
+.foot {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#copyright {
+	text-align: center;
+	background-color: #2A2117;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 15px;
+}
